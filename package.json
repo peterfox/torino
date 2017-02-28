@@ -1,0 +1,21 @@
+{
+  "name": "torino",
+  "version": "0.1.2",
+  "description": "Utility for generating Onion addresses",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Fox <peter.fox@peterfox.me> (http://www.peterfox.me)",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "commander": "^2.9.0",
+    "countdown": "^2.6.0",
+    "node-forge": "^0.6.48",
+    "rfc-3548-b32": "0.0.2"
+  },
+  "bin": {
+    "torino": "bin/torino.js"
+  }
+}
